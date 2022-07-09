@@ -1,0 +1,190 @@
+NCBI RefSeq annotation for mm10 (build 38.1) is used.
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+       Rsubread 2.2.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 18 BAM files                                     ||
+||                           o 1_MEFs_1_S1_L001_R1_001.bam                    ||
+||                           o 10_MEFs_2_BCL2_2_S8_L001_R1_001.bam            ||
+||                           o 11_WT_MEFs_1_1_S9_L001_R1_001.bam              ||
+||                           o 13_WT_MEFs_2_S10_L001_R1_001.bam               ||
+||                           o 14_179_IgMp_S11_L001_R1_001.bam                ||
+||                           o 15_180_IgMp_S12_L001_R1_001.bam                ||
+||                           o 16_202_IgMp_S13_L001_R1_001.bam                ||
+||                           o 17_213_IgMp_S14_L001_R1_001.bam                ||
+||                           o 18_214_IgMn_S15_L001_R1_001.bam                ||
+||                           o 19_216_IgMn_S16_L001_R1_001.bam                ||
+||                           o 2_MEFs_2_S2_L001_R1_001.bam                    ||
+||                           o 20_179_Tumour_IgMp_S17_L001_R1_001.bam         ||
+||                           o 21_180_Tumour_IgMp_S18_L001_R1_001.bam         ||
+||                           o 3_MEFs_1_NTC1_S3_L001_R1_001.bam               ||
+||                           o 5_MEFs_2_NTC1_S4_L001_R1_001.bam               ||
+||                           o 7_MEFs_1_BCL2_1_S5_L001_R1_001.bam             ||
+||                           o 8_MEFs_1_BCL2_2_S6_L001_R1_001.bam             ||
+||                           o 9_MEFs_2_BCL2_1_S7_L001_R1_001.bam             ||
+||                                                                            ||
+||              Annotation : inbuilt (mm10)                                   ||
+||      Dir for temp files : .                                                ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file mm10_RefSeq_exon.txt ...                              ||
+||    Features : 222996                                                       ||
+||    Meta-features : 27179                                                   ||
+||    Chromosomes/contigs : 43                                                ||
+||                                                                            ||
+|| Process BAM file 1_MEFs_1_S1_L001_R1_001.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27567311                                             ||
+||    Successfully assigned alignments : 23453466 (85.1%)                     ||
+||    Running time : 1.85 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 10_MEFs_2_BCL2_2_S8_L001_R1_001.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27607079                                             ||
+||    Successfully assigned alignments : 23544069 (85.3%)                     ||
+||    Running time : 2.36 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 11_WT_MEFs_1_1_S9_L001_R1_001.bam...                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22189191                                             ||
+||    Successfully assigned alignments : 19049106 (85.8%)                     ||
+||    Running time : 1.67 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 13_WT_MEFs_2_S10_L001_R1_001.bam...                       ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31809034                                             ||
+||    Successfully assigned alignments : 26659348 (83.8%)                     ||
+||    Running time : 3.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 14_179_IgMp_S11_L001_R1_001.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31184131                                             ||
+||    Successfully assigned alignments : 24995506 (80.2%)                     ||
+||    Running time : 2.70 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 15_180_IgMp_S12_L001_R1_001.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33548217                                             ||
+||    Successfully assigned alignments : 26966105 (80.4%)                     ||
+||    Running time : 3.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 16_202_IgMp_S13_L001_R1_001.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33001343                                             ||
+||    Successfully assigned alignments : 26693525 (80.9%)                     ||
+||    Running time : 3.06 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 17_213_IgMp_S14_L001_R1_001.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25424260                                             ||
+||    Successfully assigned alignments : 20322578 (79.9%)                     ||
+||    Running time : 2.37 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 18_214_IgMn_S15_L001_R1_001.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32412141                                             ||
+||    Successfully assigned alignments : 25929534 (80.0%)                     ||
+||    Running time : 2.98 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 19_216_IgMn_S16_L001_R1_001.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 28964327                                             ||
+||    Successfully assigned alignments : 23498131 (81.1%)                     ||
+||    Running time : 2.54 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 2_MEFs_2_S2_L001_R1_001.bam...                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27643722                                             ||
+||    Successfully assigned alignments : 23508136 (85.0%)                     ||
+||    Running time : 2.24 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 20_179_Tumour_IgMp_S17_L001_R1_001.bam...                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29567615                                             ||
+||    Successfully assigned alignments : 23150267 (78.3%)                     ||
+||    Running time : 2.40 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21_180_Tumour_IgMp_S18_L001_R1_001.bam...                 ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 26605245                                             ||
+||    Successfully assigned alignments : 20364577 (76.5%)                     ||
+||    Running time : 2.43 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 3_MEFs_1_NTC1_S3_L001_R1_001.bam...                       ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 25624085                                             ||
+||    Successfully assigned alignments : 20731105 (80.9%)                     ||
+||    Running time : 2.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 5_MEFs_2_NTC1_S4_L001_R1_001.bam...                       ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29953337                                             ||
+||    Successfully assigned alignments : 24392114 (81.4%)                     ||
+||    Running time : 2.47 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 7_MEFs_1_BCL2_1_S5_L001_R1_001.bam...                     ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 27488269                                             ||
+||    Successfully assigned alignments : 23376334 (85.0%)                     ||
+||    Running time : 2.31 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 8_MEFs_1_BCL2_2_S6_L001_R1_001.bam...                     ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31638752                                             ||
+||    Successfully assigned alignments : 26818441 (84.8%)                     ||
+||    Running time : 2.71 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 9_MEFs_2_BCL2_1_S7_L001_R1_001.bam...                     ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29709283                                             ||
+||    Successfully assigned alignments : 24982049 (84.1%)                     ||
+||    Running time : 2.45 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+\\============================================================================//
+
+R version 4.0.5 (2021-03-31)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS:   /stornext/System/data/apps/R/R-4.0.5/lib64/R/lib/libRblas.so
+LAPACK: /stornext/System/data/apps/R/R-4.0.5/lib64/R/lib/libRlapack.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] Rsubread_2.2.6     BiocVersion_3.11.1
+
+loaded via a namespace (and not attached):
+[1] compiler_4.0.5  Matrix_1.3-2    grid_4.0.5      lattice_0.20-44

@@ -1,0 +1,13 @@
+setwd("/stornext/Bioinf/data/bioinf-data/Papenfuss_lab/projects/ginerg_papenfuss_lab/Github_projects/SDiepstraten_2021_05_14/B_ALL_RNA-Seq_from_Ashley/subjunc_bamfiles")
+date <- Sys.Date()
+sink(paste0(date, "-featurecount.log"), split = TRUE)
+library(BiocVersion) # load this to view the version in sessionInfo
+library(Rsubread)
+BAM <- dir(pattern=".BAM$")
+fc <- featureCounts(BAM, annot.inbuilt = "mm10", isPairedEnd = TRUE)
+propmap <- propmapped(BAM)
+ann <- getInBuiltAnnotation("mm10")
+out.gene <- list(count = fc, propmap = propmap, ann = ann)
+save(out.gene, file = paste0(date, "-B_ALL_RNA-Seq_from_Ashley-rsubread-mm10-gene.RData"))
+print(sessionInfo())
+sink()
